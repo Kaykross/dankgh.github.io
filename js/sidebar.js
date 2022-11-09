@@ -25,6 +25,8 @@ window.onresize =e=>{
     sidebarModal.style.width = sidebarWidth; 
 };
 
+if(storedTheme == "") localStorage.setItem('storedTheme',"sunny-theme");
+
 document.addEventListener("DOMContentLoaded",()=>{
     console.info(storedTheme);
     whiteThemes.forEach(input=>{
@@ -35,7 +37,7 @@ document.addEventListener("DOMContentLoaded",()=>{
        }
     });
 });
-localStorage.setItem('storedTheme',"sunny-theme");
+
 
 const changeTheme = (theme_checkboxes,themes)=>{
     theme_checkboxes.forEach((input,index)=>{
