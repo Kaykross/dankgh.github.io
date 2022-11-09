@@ -25,18 +25,29 @@ window.onresize =e=>{
     sidebarModal.style.width = sidebarWidth; 
 };
 
-if(storedTheme == "") localStorage.setItem('storedTheme',"sunny-theme");
 
-document.addEventListener("DOMContentLoaded",()=>{
-    console.info(storedTheme);
-    whiteThemes.forEach(input=>{
-       let condition = input.parentNode.parentNode.dataset.theme == storedTheme;
-       if(condition){
-        body.classList.add(storedTheme);
-        input.checked = true;
-       }
-    });
-});
+console.log(storedTheme);
+
+const loadTheme =themes=>{
+    if(storedTheme == "") localStorage.setItem('storedTheme',"sunny-theme");
+    themes.forEach(theme=>{
+        let condition = theme.parentNode.parentNode.dataset.theme == storedTheme;
+        if(condition){
+         body.classList.add(storedTheme);
+         theme.checked = true;
+        }
+     });
+};
+
+document.addEventListener("DOMContentLoaded",()=>{ 
+   loadTheme(whiteThemes);
+   loadTheme(darkThemes);
+},{passive:true});
+
+if(performance.getEntriesByType("navigation")[0].type == 'reload'){
+    loadTheme(whiteThemes);
+    loadTheme(darkThemes);
+}
 
 
 const changeTheme = (theme_checkboxes,themes)=>{
@@ -92,11 +103,7 @@ btn.onclick=e=>{
 navLinks.forEach(navLink=>{
     navLink.onclick =e=>{
         navLinks.forEach(link=>link.classList.remove('active'));
-        navLink.classList.add("active");
-        // let cnd = navLink.nextElementSibling.classList.contains("nav-dropdown");
-        // if(cnd) navLink.nextElementSibling.classList.toggle('active');
-        
-        // console.info();
+        navLink.classList.add("active");   
     };
 });
 
