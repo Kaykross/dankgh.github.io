@@ -1,0 +1,210 @@
+body.dark-theme,
+body.dark-theme *{
+    background-color: #18191a;
+    color: rgb(109, 109, 109);
+    color: #b7aec7;
+}
+
+/* sidebar  */
+/* body.dark-theme .sidebar{
+    background-color:#242526;
+} */
+body.dark-theme .sidebar .sidebar-header{
+    border-bottom: 2px inset #4f4e52;
+    /* background-color: #222225;  */
+}
+body.dark-theme .sidebar,
+body.dark-theme .sidebar .sidebar-header,
+body.dark-theme .sidebar .sidebar-navs,
+body.dark-theme .sidebar .sidebar-navs .nav-group *
+{
+    color: #b7aec7;
+}
+body.dark-theme .sidebar .nav-title{
+    color: rgb(109, 109, 109);
+} 
+body.dark-theme .sidebar .sidebar-navs .nav-group .nav-link.active{
+    background-color: rgb(68, 67, 67);
+    /* border-bottom: 1px solid rgb(248, 139, 15);  */
+}
+body.dark-theme .sidebar .sidebar-navs .nav-group .nav-link *{
+    background-color: transparent;
+}
+body.dark-theme .sidebar .sidebar-navs .nav-group .nav-link.active *{
+    background-color: rgb(68, 67, 67);
+    padding-left: 1px;
+}
+body.dark-theme .sidebar .sidebar-navs .nav-group .side-icon{
+    background-color: transparent;
+}
+body.dark-theme .sidebar .sidebar-navs .nav-group .nav-item .nav-dropdown *{
+    background-color: transparent;
+    padding: 2px;
+}
+body.dark-theme .sidebar .sidebar-navs .nav-group .nav-item .nav-dropdown{
+    background-color: #434344;
+}
+body.dark-theme .sidebar .sidebar-footer{
+    border-top: 2px inset #9b99a0;
+    background-color: #18191a;
+}
+
+
+
+/* content */
+/* body.dark-theme .content{
+    background-color: #222225 !important;
+} */
+/* body.dark-theme .content *{
+    color: #707070; 
+} */
+
+body.dark-theme .content header.big-header{
+     background-color: #3d3e3f;
+    box-shadow: 0px 2px 2px 2px #18191a;
+    background-color: #222225; 
+    border-bottom: 1px inset #4f4e52;
+}
+body.dark-theme .content header.big-header button.close{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+body.dark-theme .content header.big-header .toolbar-1 .search .btn-search{
+    background-color: #282829; 
+}
+body.dark-theme .content header.big-header .toolbar-1 .floating-contact-button .header-dropdown-contact,
+body.dark-theme .content header.big-header .toolbar-1 .floating-contact-button .header-dropdown-contact *{
+    background-color: rgb(43, 43, 43);
+}
+/* body.dark-theme  .content header.big-header .toolbar-2 *{
+    color: rgb(201, 200, 200);
+} */
+body.dark-theme .content header.big-header .toolbar-2 .logo-box .site-name span{
+    color: rgb(248, 139, 15);
+}
+body.dark-theme .content main.main *{
+    color: rgb(201, 200, 200);
+    color: inherit;
+}
+body.dark-theme .content main.main .main-section section *,
+body.dark-theme .content main.main .main-section section{
+    background-color: rgb(41, 41, 41);
+}
+body.dark-theme .content main.main .main-section section p,
+body.dark-theme .content main.main .main-section section ol,
+body.dark-theme .content main.main .main-section section ul{
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+body.dark-theme .content main.main .main-section .about-cbt-container,
+body.dark-theme .content main.main .main-section .about-cbt-container *{
+    background-color: rgb(41, 41, 41); 
+}
+
+body.black-theme .content main.main .main-section section.features .features-list .list-item *,
+body.black-theme .content main.main .main-section section.services .service-list .list-item *{
+    background-color: rgb(43, 43, 43);
+}
+body.dark-theme .content main.main .main-section section.features .features-list .list-item,
+body.dark-theme .content main.main .main-section section.services .service-list .list-item{
+    background-color: rgb(43, 43, 43);
+    border: 1px solid #4f4e52;
+}
+
+body.dark-theme .content main.main .main-section section.features .features-list .list-item button.read-more:hover,
+body.dark-theme .content main.main .main-section section.services .service-list .list-item button.read-more:hover,
+body.dark-theme .content main.main .main-section section.features .features-list .list-item button.read-more:hover *,
+body.dark-theme .content main.main .main-section section.services .service-list .list-item button.read-more:hover *,
+body.dark-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more:hover,
+body.dark-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more:hover *{
+    background-color: #19191a;
+    transform: scale(1.02);
+}
+body.dark-theme .content main.main .main-section section.features .features-list .list-item button.read-more,
+body.dark-theme .content main.main .main-section section.services .service-list .list-item button.read-more,
+body.dark-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more{
+    border: 1px solid #4f4e52;
+    transition: all 0.1s linear;
+}
+
+body.dark-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .form-group .input-group input,
+body.dark-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .form-group .input-group textarea{
+    background-color: rgb(41, 41, 41);
+    color: inherit;
+    outline: none;
+    border: 1px solid #3d3e3f;
+}
+body.dark-theme .content main.main .main-section section.contact-box *{
+    background-color: rgb(41, 41, 41); 
+}
+body.dark-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .button-group .clear{
+    background-color: #9b99a0;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #3d3e3f;
+}
+.content main.main .main-section section.contact-box .mail-form .form-send-mail .button-group .send{
+    background-color: green;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(41, 41, 41); 
+}
+body.dark-theme .content .main-footer{
+    background-color: #222225;
+}
+body.white-theme .content .main-footer .footer-bottom .terms-conditions *{
+    color: rgb(221, 215, 215);
+}
+body.dark-theme .content main.main .main-aside .notifications,
+body.dark-theme .content main.main .main-aside .cbt-courses-adds{
+    border: 1px solid rgb(41, 41, 41); 
+}
+
+
+
+ body.dark-theme .content .site-overlay{
+    background-color: rgb(6, 6, 6);
+}
+body.dark-theme .content .site-policies{
+    border: 1px solid #4f4e52;
+}
+body.dark-theme .content .site-policies .btn-close-policy{
+    background-color: #e0dfdf;
+    /* border: 1px solid gainsboro;  */
+    background-color: #3d3e3f;
+}
+body.dark-theme .content  .site-policies .privacy-notices .button-group button{
+    border: 1px solid gainsboro;
+}
+body.dark-theme .content  .site-policies .privacy-notices .button-group button.cancel{
+    background-color: #3d3e3f;
+}
+body.dark-theme .content  .site-policies .privacy-notices .button-group button.allow{
+    background-color: rgb(67, 67, 245);
+}
+body.dark-theme .content .site-policies .blue{
+    color: rgb(117, 117, 247);
+}
+
+
+.bg-dark-radial{
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: -o-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+body.dark-theme * ::-webkit-scrollbar{
+    width: 6px;
+    margin-bottom: 10px;
+}
+body.dark-theme * ::-webkit-scrollbar-track{
+    background-color: rgb(37, 37, 37);
+}
+body.dark-theme * ::-webkit-scrollbar-thumb{
+    background-color: rgb(122, 119, 119);
+    /* border-radius: 5px; */
+}

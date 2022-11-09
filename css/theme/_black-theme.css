@@ -1,0 +1,194 @@
+body.black-theme,
+body.black-theme *{
+    background-color: black;
+    color: #b7aec7;
+}
+
+/* sidebar  */
+body.black-theme .sidebar{
+    background-color:#0c0c0c;
+}
+body.black-theme .sidebar .sidebar-header{
+    border-bottom: 2px inset #4f4e52;
+    /* background-color: #0c0c0c; */
+}
+body.black-theme .sidebar,
+body.black-theme .sidebar .sidebar-header,
+body.black-theme .sidebar .sidebar-navs,
+body.black-theme .sidebar .sidebar-navs .nav-group *
+{
+    color: #b7aec7;
+}
+body.black-theme .sidebar .nav-title{
+    color: rgb(109, 109, 109);
+}
+body.black-theme .sidebar .sidebar-navs .nav-group .nav-link.active{
+    background-color: rgb(68, 67, 67);
+    /* border-bottom: 1px solid #4f4e52;; */
+}
+body.black-theme .sidebar .sidebar-navs .nav-group .nav-link.active *{
+    background-color: rgb(68, 67, 67);
+}
+body.black-theme .sidebar .sidebar-navs .nav-group .side-icon{
+    background-color: transparent;
+}
+body.black-theme .sidebar .sidebar-navs .nav-group .nav-item .nav-dropdown *{
+    background-color: #0c0c0c;
+    padding: 2px;
+}
+body.black-theme .sidebar .sidebar-navs .nav-group .nav-item .nav-dropdown {
+    background-color: #0c0c0c;
+    /* border-radius: 10px; */
+}
+
+body.black-theme .sidebar .sidebar-footer{
+    border-top: 2px inset #828183;
+    /* background-color: #18191a; */
+}
+
+
+
+/* content */
+/* body.black-theme .content{
+    background-color: #222225 !important;
+} */
+/* body.black-theme .content *{
+    color: #707070; 
+} */
+body.black-theme .content header.big-header{
+    /* box-shadow: 0px 2px 2px 1px #111111; */
+    /* background-color: #222225; */
+    border-bottom: 1px inset #282829;
+}
+body.black-theme .content header.big-header button.close{
+    background-color: transparent;
+    border: none;
+    /* color: #9e9d9d; */
+    font-size: 18px;
+}
+body.blck-theme .content header.big-header .toolbar-1 .search .btn-search{
+    background-color: #282829; 
+}
+body.black-theme .content header.big-header .toolbar-1 .floating-contact-button .header-dropdown-contact,
+body.black-theme .content header.big-header .toolbar-1 .floating-contact-button .header-dropdown-contact *{
+    background-color: rgb(43, 43, 43);
+}
+/* body.black-theme  .content header.big-header .toolbar-2 *{
+    color: rgb(201, 200, 200);
+} */
+body.black-theme .content header.big-header .toolbar-2 .logo-box .site-name span{
+    color: rgb(248, 139, 15);
+}
+/* body.black-theme .content main.main *{
+    color: rgb(201, 200, 200);
+} */
+body.black-theme .content main.main .main-section section{
+    background-color: transparent;
+}
+body.dark-theme .content main.main .main-section section p,
+body.dark-theme .content main.main .main-section section ol,
+body.dark-theme .content main.main .main-section section ul{
+    font-size: 15px;
+}
+body.black-theme .content main.main .main-section .about-cbt-container *{
+    background-color: rgb(4, 4, 5); 
+}
+body.black-theme .content main.main .main-section section.features .features-list .list-item *,
+body.black-theme .content main.main .main-section section.services .service-list .list-item *{
+    background-color: rgb(43, 43, 43);
+}
+body.black-theme .content main.main .main-section section.features .features-list .list-item,
+body.black-theme .content main.main .main-section section.services .service-list .list-item{
+    background-color: rgb(43, 43, 43);
+    border: 1px solid #4f4e52;
+}
+body.black-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .form-group .input-group input,
+body.black-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .form-group .input-group textarea{
+    background-color: rgb(41, 41, 41);
+    color: inherit;
+    outline: none;
+    border: 1px solid #3d3e3f;
+}
+body.black-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .button-group .clear{
+    background-color: rgb(41, 41, 41);
+    padding: 5px;
+    outline: none;
+    border: 1px solid #3d3e3f;
+}
+body.black-theme .content main.main .main-section section.contact-box .mail-form .form-send-mail .button-group .send{
+    background-color: green;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(41, 41, 41); 
+}
+
+body.black-theme .content main.main .main-aside .overlay{
+    background-color: #181818;
+}
+
+body.black-theme .content main.main .main-aside .notifications,
+body.black-theme .content main.main .main-aside .cbt-courses-adds{
+    border: 1px solid rgb(41, 41, 41); 
+}
+/* body.black-theme .content .main-footer{
+    background-color: #222225;
+} */
+body.black-theme .content .main-footer .footer-top section,
+body.black-theme .content .main-footer .footer-top section *{
+    background-color: rgb(43, 43, 43);
+}
+body.black-theme .content .main-footer .footer-top section{
+    border: 1px solid #4f4e52;
+    padding: 3px 5px;
+}
+
+
+body.black-theme .content .site-overlay{
+    background-color: rgb(6, 6, 6);
+}
+body.black-theme .content .site-policies{
+    border: 1px solid #4f4e52;
+}
+body.black-theme .content .site-policies .btn-close-policy{
+    background-color: #e0dfdf;
+    /* border: 1px solid gainsboro; */
+    background-color: #3d3e3f;
+}
+body.black-theme .content  .site-policies .privacy-notices .button-group button{
+    border: 1px solid gainsboro;
+}
+body.black-theme .content  .site-policies .privacy-notices .button-group button.cancel{
+    background-color: #3d3e3f;
+}
+body.black-theme .content  .site-policies .privacy-notices .button-group button.allow{
+    background-color: rgb(67, 67, 245);
+}
+body.black-theme .content .site-policies .blue{
+    color: rgb(117, 117, 247);
+}
+
+
+/* body.white-theme .content .main-footer .footer-bottom .terms-conditions *{
+    color: rgb(221, 215, 215);
+} */
+
+.bg-dark-radial {
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: -o-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+body.black-theme * ::-webkit-scrollbar{
+    width: 6px;
+    margin-bottom: 10px;
+}
+body.black-theme * ::-webkit-scrollbar-track{
+    background-color: rgb(37, 37, 37);
+}
+body.black-theme * ::-webkit-scrollbar-thumb{
+    background-color: rgb(122, 119, 119);
+    border-radius: 5px;
+}

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section.testimonials .breadcrumb{
+    background-image: url('../../assets/images/WEBSITE-CBT-300x169.jpg');
+    height: 150px;
+    color: rgb(238, 236, 236);
+    font-weight: bolder;
+    font-size: 28px;
+    border-bottom: 4px solid gainsboro;
+}
+
+section.testimonials .testimonials-container{
+    width: 100%;
+    height: 300px;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+section.testimonials .testimonials-container .testitomials-slider{
+    display: inline-flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+section.testimonials .testimonials-container .testitomials-slider .slide{
+    min-width:100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* animation: anime-right 30s linear  infinite forwards;    */
+}
+@keyframes anime-right{
+    0%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(-2000px);
+    }
+
+}
+
+section.testimonials .testimonials-container .testitomials-slider .slider-image,
+section.testimonials .testimonials-container .testitomials-slider .slider-image img{
+    width: 100%;
+    height: 100%;
+}
+section.testimonials .testimonials-container .testitomials-slider .slider-text{
+    background-color: rgb(252, 252, 252);
+} 
+section.testimonials .testimonials-container .testitomials-slider .slider-text .title{
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section.testimonials .testimonials-container .testitomials-slider .slider-text .subtitle{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    color: rgb(27, 6, 6);
+    font-style: oblique;
+}
+section.testimonials .testimonials-container .indicators{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    bottom: 30px;
+    align-items: center;
+    place-content: center;
+}
+section.testimonials .testimonials-container .indicators .indicator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(177, 176, 175);
+    font-size: 14px;
+    padding: 5px;
+}
+
+section.testimonials .testimonials-container .btn-group{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    bottom: 60%;
+    justify-content: space-between;
+}
+section.testimonials .testimonials-container .btn-group button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 15px;
+    height: 15px; */
+    background-color: rgb(177, 176, 175);
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+}
