@@ -24,6 +24,12 @@
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
     }
+    .content header.big-header .toolbar-2 .logo-box .site-logo{
+        display: none;
+    }
+    .content header.big-header .toolbar-2 .logo-box .site-name{
+        margin-left: -3px;
+    }
     .content header.big-header .toolbar-2 .tootbar-2-menu-item{
         display: none;
     }
@@ -104,6 +110,12 @@
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
     }
+    .content header.big-header .toolbar-2 .logo-box .site-name{
+        margin-left: -10px;
+    }
+    .content header.big-header .toolbar-2 .logo-box .site-logo{
+        display: none;
+    }
     .content header.big-header .toolbar-2 .tootbar-2-menu-item{
         display: none;
     }
@@ -183,6 +195,12 @@
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
     }
+    .content header.big-header .toolbar-2 .logo-box .site-name{
+        margin-left: -10px;
+    }
+    .content header.big-header .toolbar-2 .logo-box .site-logo{
+        display: none;
+    }
     .content header.big-header .toolbar-2 .tootbar-2-menu-item{
         display: none;
     }
@@ -261,6 +279,9 @@
     }
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
+    }
+    .content header.big-header .toolbar-2 .logo-box .site-logo{
+        display: none;
     }
     .content header.big-header .toolbar-2 .tootbar-2-menu-item{
         display: none;
