@@ -96,7 +96,7 @@
     .sidebar{
         position: absolute;
         z-index: 200;
-        width: 250px;
+        width: 270px;
         height: 100vh;
     }
     .sidebar .sidebar-container{
@@ -182,7 +182,7 @@
     .sidebar{
         position: absolute;
         z-index: 200;
-        width: 210px;
+        width: 250px;
     }
     .sidebar .sidebar-container{
         width: 100%;
