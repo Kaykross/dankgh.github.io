@@ -3,7 +3,7 @@
     .sidebar{
         position: absolute;
         z-index: 200;
-        width: 250px;
+        width: 60vw;
         height: 100vh;
     }
     .sidebar .sidebar-container{
@@ -16,7 +16,7 @@
         font-size: 20px;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 120px;
+        width: 40%;
     }
     .content header.big-header .toolbar-2{
         position: relative;
@@ -96,13 +96,20 @@
     .sidebar{
         position: absolute;
         z-index: 200;
-        width: 270px;
+        width: 60vw;
         height: 100vh;
     }
     .sidebar .sidebar-container{
         width: 100%;
         height: 100vh;
         overflow-y: scroll;
+    }
+    .content header.big-header .toolbar-1 .btn-toggle-sidebar{
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .content header.big-header .toolbar-1 .search input{
+        width: 40%;
     }
     .content header.big-header .toolbar-2{
         position: relative;
@@ -192,6 +199,13 @@
     .content header.big-header .toolbar-2{
         position: relative;
     }
+    .content header.big-header .toolbar-1 .btn-toggle-sidebar{
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .content header.big-header .toolbar-1 .search input{
+        width: 40%;
+    }
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
     }
@@ -276,6 +290,13 @@
     }
     .content header.big-header .toolbar-2{
         position: relative;
+    }
+    .content header.big-header .toolbar-1 .btn-toggle-sidebar{
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .content header.big-header .toolbar-1 .search input{
+        width: 40%;
     }
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
