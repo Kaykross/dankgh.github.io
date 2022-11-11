@@ -65,8 +65,9 @@ body.dark-theme .content header.big-header{
     background-color: #222225; 
     border-bottom: 1px inset #4f4e52;
 }
-body.dark-theme .content header.big-header button.close{
+body.dark-theme .content header.big-header button.btn-toggle-sidebar{
     background-color: transparent;
+    color: rgb(248, 139, 15);
     border: none;
     font-size: 18px;
 }

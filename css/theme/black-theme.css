@@ -60,10 +60,10 @@ body.black-theme .content header.big-header{
     /* background-color: #222225; */
     border-bottom: 1px inset #282829;
 }
-body.black-theme .content header.big-header button.close{
+body.black-theme .content header.big-header button.btn-toggle-sidebar{
     background-color: transparent;
+    color: rgb(248, 139, 15);
     border: none;
-    /* color: #9e9d9d; */
     font-size: 18px;
 }
 body.blck-theme .content header.big-header .toolbar-1 .search .btn-search{
@@ -179,6 +179,10 @@ body.black-theme .content .site-policies .blue{
     background-image: -o-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
     background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
     background-size: 3px 3px;
+}
+
+.btn-toggle-sidebar{
+
 }
 
 body.black-theme * ::-webkit-scrollbar{

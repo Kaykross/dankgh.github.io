@@ -1,0 +1,333 @@
+ /* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:0px) and (max-width:320px)  {
+    .sidebar{
+        position: absolute;
+        z-index: 200;
+        width: 200px;
+        height: 100vh;
+    }
+    .sidebar .sidebar-container{
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .content header.big-header .toolbar-1 .btn-toggle-sidebar{
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .content header.big-header .toolbar-1 .search input{
+        width: 120px;
+    }
+    .content header.big-header .toolbar-2{
+        position: relative;
+    }
+    .content header.big-header .toolbar-2 .logo-box{
+        overflow: visible;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-menu-item{
+        display: none;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+        transform: rotate(90deg);    
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile *{
+        color: orange !important; 
+    }
+    .content .top-bar-navs *{
+        background-color: inherit;
+    }
+    .content .top-bar-navs{
+        display: grid;
+        width: 120px;
+        height: 0vh;
+        background-color: inherit;
+        position: absolute;
+        right: 0;
+        margin-top: 2px;
+        transition: all 0.25s ease-in-out;
+    }
+    .content .top-bar-navs.active{
+        height: 20vh;
+        z-index: 190;
+    }
+    .content .top-bar-navs a.menu-item:hover,
+    .content .top-bar-navs a.menu-item.active{
+        border-bottom: 2px solid orange;
+        color: orange !important;
+        background-color: rgb(58, 57, 57);
+    }
+
+    .content main.main{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .content main.main .main-section{
+        margin: 10px 0px;
+    }
+    .content main.main .main-section section{
+        padding: 10px;
+    }
+    .content main.main .main-section section.about-cbt{
+        grid-template-columns: 1fr;
+    }
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box,
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box *{
+        background-color: rgb(43, 43, 43);
+     }
+     body.dark-theme .content main.main .main-section section.about-cbt .cbt-box{
+         border: 1px solid #4f4e52;
+         margin: 0 -8px;
+         padding: 7px;
+      }
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:321px) and (max-width:480px)  {
+    .sidebar{
+        position: absolute;
+        z-index: 200;
+        width: 200px;
+        height: 100vh;
+    }
+    .sidebar .sidebar-container{
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .content header.big-header .toolbar-2{
+        position: relative;
+    }
+    .content header.big-header .toolbar-2 .logo-box{
+        overflow: visible;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-menu-item{
+        display: none;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+        transform: rotate(90deg);    
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile *{
+        color: orange !important; 
+    }
+    .content .top-bar-navs *{
+        background-color: inherit;
+    }
+    .content .top-bar-navs{
+        display: grid;
+        width: 120px;
+        height: 0vh;
+        background-color: inherit;
+        position: absolute;
+        right: 0;
+        margin-top: 2px;
+        transition: all 0.25s ease-in-out;
+    }
+    .content .top-bar-navs.active{
+        height: 20vh;
+        z-index: 190;
+    }
+    .content .top-bar-navs a.menu-item:hover,
+    .content .top-bar-navs a.menu-item.active{
+        border-bottom: 2px solid orange;
+        color: orange !important;
+        background-color: rgb(58, 57, 57);
+    }
+
+    .content main.main{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .content main.main .main-section{
+        margin: 10px 0px;
+    }
+    .content main.main .main-section section{
+        padding: 10px;
+    }
+    .content main.main .main-section section.about-cbt{
+        grid-template-columns: 1fr;
+    }
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box,
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box *{
+        background-color: rgb(43, 43, 43);
+     }
+     body.dark-theme .content main.main .main-section section.about-cbt .cbt-box{
+         border: 1px solid #4f4e52;
+         margin: 0 -8px;
+         padding: 7px;
+      }
+ }
+ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:481px) and (max-width:640px)  { 
+    .sidebar{
+        position: absolute;
+        z-index: 200;
+        width: 210px;
+    }
+    .sidebar .sidebar-container{
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .content header.big-header .toolbar-2{
+        position: relative;
+    }
+    .content header.big-header .toolbar-2 .logo-box{
+        overflow: visible;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-menu-item{
+        display: none;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+        transform: rotate(90deg);    
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile *{
+        color: orange !important; 
+    }
+    .content .top-bar-navs *{
+        background-color: inherit;
+    }
+    .content .top-bar-navs{
+        display: grid;
+        width: 120px;
+        height: 0vh;
+        background-color: inherit;
+        position: absolute;
+        right: 0;
+        margin-top: 2px;
+        transition: all 0.25s ease-in-out;
+    }
+    .content .top-bar-navs.active{
+        height: 20vh;
+        z-index: 190;
+    }
+    .content .top-bar-navs a.menu-item:hover,
+    .content .top-bar-navs a.menu-item.active{
+        border-bottom: 2px solid orange;
+        color: orange !important;
+        background-color: rgb(58, 57, 57);
+    }
+
+    .content main.main{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .content main.main .main-section{
+        margin: 10px 0px;
+    }
+    .content main.main .main-section section{
+        padding: 10px;
+    }
+    .content main.main .main-section section.about-cbt{
+        grid-template-columns: 2fr 1fr;
+    }
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box,
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box *{
+        background-color: rgb(43, 43, 43);
+     }
+     body.dark-theme .content main.main .main-section section.about-cbt .cbt-box{
+         border: 1px solid #4f4e52;
+         margin: 0 -8px;
+         padding: 7px;
+      }
+ }
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) and (max-width:720px){ 
+    .sidebar{
+        position: absolute;
+        z-index: 200;
+        width: 220px;
+    }
+    .sidebar .sidebar-container{
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .content header.big-header .toolbar-2{
+        position: relative;
+    }
+    .content header.big-header .toolbar-2 .logo-box{
+        overflow: visible;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-menu-item{
+        display: none;
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+        transform: rotate(90deg);    
+    }
+    .content header.big-header .toolbar-2 .tootbar-2-mobile *{
+        color: orange !important; 
+    }
+    .content .top-bar-navs *{
+        background-color: inherit;
+    }
+    .content .top-bar-navs{
+        display: grid;
+        width: 120px;
+        height: 0vh;
+        background-color: inherit;
+        position: absolute;
+        right: 0;
+        margin-top: 2px;
+        transition: all 0.25s ease-in-out;
+    }
+    .content .top-bar-navs.active{
+        height: 20vh;
+        z-index: 190;
+    }
+    .content .top-bar-navs a.menu-item:hover,
+    .content .top-bar-navs a.menu-item.active{
+        border-bottom: 2px solid orange;
+        color: orange !important;
+        background-color: rgb(58, 57, 57);
+    }
+
+    .content main.main{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .content main.main .main-section{
+        margin: 10px 0px;
+    }
+    .content main.main .main-section section{
+        padding: 10px;
+    }
+    .content main.main .main-section section.about-cbt{
+        grid-template-columns: 2fr 1fr;
+    }
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box,
+    body.black-theme .content main.main .main-section section.about-cbt .cbt-box *{
+        background-color: rgb(43, 43, 43);
+     }
+    body.dark-theme .content main.main .main-section section.about-cbt .cbt-box{
+         border: 1px solid #4f4e52;
+         margin: 0 -8px;
+         padding: 7px;
+    }
+
+    .content main.main .main-aside{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

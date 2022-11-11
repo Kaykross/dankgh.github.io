@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon_io/favicon_io_text/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/theme/theme.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./assets/fontawesome/js/all.min.js"></script>
+    <script async src="./assets/fontawesome/js/all.min.js"></script>
     <script defer src="./js/sidebar.js" type="module"></script>
-    <title>|DankCBT|Home|</title>
+    <title>DankGH</title>
 </head>
 <body class="sunn-theme">
+    <div class="body-overlay"></div>
     <div id="app">
         <div class="sidebar ">
+            <div class="sidebar-container">
             <div class="sidebar-header">
-                DANKCBT 
+                <div><span class="dank">DANK</span><span class="gh">GH</span></div>
+                <div><img src="./assets/favicon_io/favicon_io_icon/favicon.ico" alt=""></div>  
             </div>
             <div class="sidebar-navs">
                 <h5 class="nav-title">Main navigation</h5>
@@ -223,10 +226,18 @@
                 
             </div>
         </div>
+        </div>
+
+
+
+
+
+
+
         <div class="content bg-radial">
             <header class="big-header bg-radial">
                 <div class="toolbar-1 bg-radial">
-                    <button class="close">&#9776;</button>
+                    <button class="btn-toggle-sidebar">&#9776;</button>
                     <div class="toolbar-1-aside toolbar-item">
                         <div class="search">
                             <input type="search" name="search" id="search" placeholder="search...">
@@ -253,18 +264,28 @@
                 </div>
                 <div class="toolbar-2 bg-radial">
                     <div class="logo-box">
-                        <div class="site-logo"><img></div>
-                        <div class="site-name">DANK<span>CBT</span></div>
+                        <div class="site-logo"><img src="./assets/favicon_io/favicon_io_text/favicon.ico" alt=""></div>
+                        <div class="site-name">DANK<span>GH</span></div>
                     </div>
-                    <div>About CBT</div>
-                    <div>Tutorials</div>
-                    <div>Notifications</div>
-                    <div>Tutors</div>
+                    <div class="tootbar-2-menu-item">
+                        <a href="#" class="menu-item">About CBT</a>
+                        <a href="#" class="menu-item">Tutorials</a>
+                        <a href="#" class="menu-item">Notifications</a>
+                        <a href="#" class="menu-item">Tutors</a>
+                    </div> 
+                    <div class="tootbar-2-mobile"><a href="#" class="menu-item small-screen">&#10095;</a></div>      
                     <!-- <div class="account">
                         <i class="fa-solid fa-user"></i>
                     </div> -->
                 </div>
             </header>
+            <!-- top bar navigation menu -->
+            <div class="top-bar-navs">
+                <a href="#" class="menu-item">About CBT</a>
+                <a href="#" class="menu-item">Tutorials</a>
+                <a href="#" class="menu-item">Notifications</a>
+                <a href="#" class="menu-item">Tutors</a>
+            </div>
             <main class="main">
                 <div class="main-section">
                     <div class="about-cbt-container">

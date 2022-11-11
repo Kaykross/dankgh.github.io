@@ -1,3 +1,19 @@
+/* body overlay */
+body .body-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: inherit !important;
+    z-index: -5;
+   
+}
+body .body-overlay.active{
+    z-index: 180;
+    opacity: 0.7;
+}
+
 /* content */
 .content{
     width: 100%;
@@ -105,17 +121,48 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 0;
 }
 
 .content header.big-header .toolbar-2 .logo-box{
     position: relative;
-    padding: 15px;
+    padding: 10px;
     font-size: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: 15px 0 -10px 0;
     margin-right: 20%;  
+}
+.content header.big-header .toolbar-2 .tootbar-2-menu-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+    /* padding: 0 0 -10px 0; */
+    margin: 0 0 -24px 0;
+}
+.content header.big-header .toolbar-2 .tootbar-2-mobile {
+    display: none;
+}
+.content .top-bar-navs{
+    display: none;
+}
+.content header.big-header .toolbar-2 .tootbar-2-menu-item a.menu-item{
+    background-color: inherit;
+    height: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    /* font-weight: bolder; */
+    color: inherit !important;
+    /* transition: 0.25s ease-in-out; */
+}
+.content header.big-header .toolbar-2 .tootbar-2-menu-item a.menu-item:hover,
+.content header.big-header .toolbar-2 .tootbar-2-menu-item a.menu-item.active{
+    border-bottom: 2px solid orange;
+    color: orange !important;
+    background-color: rgb(58, 57, 57);
 }
 .content header.big-header .toolbar-2 .logo-box  img{
     width: 40px;
@@ -478,7 +525,7 @@
 
 
 
-.btn-toggle-content{
+.toggle-content-margin{
     margin-left: 0px;
 }
 
