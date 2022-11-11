@@ -12,11 +12,11 @@
         overflow-y: scroll;
     }
     .content header.big-header .toolbar-1 .btn-toggle-sidebar{
-        padding-right: 20px;
+        /* padding-right: px; */
         font-size: 20px;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 40%;
+        width: 55%;
     }
     .content header.big-header .toolbar-2{
         position: relative;
@@ -105,11 +105,11 @@
         overflow-y: scroll;
     }
     .content header.big-header .toolbar-1 .btn-toggle-sidebar{
-        padding-right: 20px;
+        /* padding-right: 20px; */
         font-size: 20px;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 40%;
+        width: 55%;
     }
     .content header.big-header .toolbar-2{
         position: relative;
@@ -200,11 +200,11 @@
         position: relative;
     }
     .content header.big-header .toolbar-1 .btn-toggle-sidebar{
-        padding-right: 20px;
+        /* padding-right: 20px; */
         font-size: 20px;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 40%;
+        width: 55%;
     }
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
@@ -292,11 +292,11 @@
         position: relative;
     }
     .content header.big-header .toolbar-1 .btn-toggle-sidebar{
-        padding-right: 20px;
+        /* padding-right: 0px; */
         font-size: 20px;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 40%;
+        width: 55%;
     }
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
