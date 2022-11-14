@@ -3,7 +3,7 @@
     .sidebar{
         position: absolute;
         z-index: 200;
-        width: 60vw;
+        width: 75vw;
         height: 100vh;
     }
     .sidebar .sidebar-container{
@@ -13,10 +13,25 @@
     }
     .content header.big-header .toolbar-1 .btn-toggle-sidebar{
         /* padding-right: px; */
-        font-size: 20px;
+        font-size: 25px;
+    }
+    /* .content header.big-header .toolbar-1 .search input{
+        width: 40vw;
+        display: none;
+    } */
+    .content header.big-header .toolbar-1 .search.mobile{
+        display: flex;
+        /* width: 40vw; */
+    }
+    .content header.big-header .toolbar-1 .search{
+        display: none;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 55%;
+        width: 100%;
+    }
+    .content header.big-header .toolbar-1 .search.mobile .btn-search{
+        position: absolute;
+        right: 1px;
     }
     .content header.big-header .toolbar-2{
         position: relative;
@@ -96,7 +111,7 @@
     .sidebar{
         position: absolute;
         z-index: 200;
-        width: 60vw;
+        width: 250px;
         height: 100vh;
     }
     .sidebar .sidebar-container{
@@ -106,10 +121,21 @@
     }
     .content header.big-header .toolbar-1 .btn-toggle-sidebar{
         /* padding-right: 20px; */
-        font-size: 20px;
+        font-size: 25px;
+    }
+    .content header.big-header .toolbar-1 .search.mobile{
+        display: flex;
+        /* width: 40vw; */
+    }
+    .content header.big-header .toolbar-1 .search{
+        display: none;
     }
     .content header.big-header .toolbar-1 .search input{
-        width: 55%;
+        width: 100%;
+    }
+    .content header.big-header .toolbar-1 .search.mobile .btn-search{
+        position: absolute;
+        right: 1px;
     }
     .content header.big-header .toolbar-2{
         position: relative;
@@ -196,6 +222,22 @@
         height: 100vh;
         overflow-y: scroll;
     }
+    .content header.big-header .toolbar-1 .search.mobile{
+        display: flex;
+        /* width: 40vw; */
+        display: none;
+    }
+    .content header.big-header .toolbar-1 .search{
+        display: none;
+        display: flex;
+    }
+    .content header.big-header .toolbar-1 .search input{
+        width: 100%;
+    }
+    .content header.big-header .toolbar-1 .search.mobile .btn-search{
+        position: absolute;
+        right: 1px;
+    }
     .content header.big-header .toolbar-2{
         position: relative;
     }
@@ -203,9 +245,9 @@
         /* padding-right: 20px; */
         font-size: 20px;
     }
-    .content header.big-header .toolbar-1 .search input{
+    /* .content header.big-header .toolbar-1 .search input{
         width: 55%;
-    }
+    } */
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
     }
@@ -288,6 +330,22 @@
         height: 100vh;
         overflow-y: scroll;
     }
+    .content header.big-header .toolbar-1 .search.mobile{
+        display: flex;
+        /* width: 40vw; */
+        display: none;
+    }
+    .content header.big-header .toolbar-1 .search{
+        display: none;
+        display: flex;
+    }
+    .content header.big-header .toolbar-1 .search input{
+        width: 100%;
+    }
+    .content header.big-header .toolbar-1 .search.mobile .btn-search{
+        position: absolute;
+        right: 1px;
+    }
     .content header.big-header .toolbar-2{
         position: relative;
     }
@@ -295,9 +353,9 @@
         /* padding-right: 0px; */
         font-size: 20px;
     }
-    .content header.big-header .toolbar-1 .search input{
+    /* .content header.big-header .toolbar-1 .search input{
         width: 55%;
-    }
+    } */
     .content header.big-header .toolbar-2 .logo-box{
         overflow: visible;
     }
@@ -312,7 +370,7 @@
         position: absolute;
         right: 10px;
         bottom: 15px;
-        transform: rotate(90deg);    
+        /* transform: rotate(90deg);     */
     }
     .content header.big-header .toolbar-2 .tootbar-2-mobile *{
         color: orange !important; 

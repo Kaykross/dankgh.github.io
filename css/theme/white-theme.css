@@ -107,17 +107,21 @@ body.white-theme .content main.main .main-section section ul{
 
 body.white-theme .content main.main .main-section .about-cbt-container,
 body.white-theme .content main.main .main-section .about-cbt-container *{
-    background-color: rgb(250, 250, 250);
+    /* background-color: rgb(250, 250, 250);
+    background-color: transparent; */
+    color: inherit;
 }
 
 body.white-theme .content main.main .main-section section.features .features-list .list-item,
 body.white-theme .content main.main .main-section section.services .service-list .list-item{
     background-color: rgb(235, 233, 233);
     border: 1px solid gainsboro;
+    background-color: white;
 }
 body.white-theme .content main.main .main-section section.features .features-list .list-item *,
 body.white-theme .content main.main .main-section section.services .service-list .list-item *{
     background-color: rgb(235, 233, 233);
+    background-color: white;
 }
 body.white-theme .content main.main .main-section section.features .features-list .list-item button.read-more,
 body.white-theme .content main.main .main-section section.services .service-list .list-item button.read-more,

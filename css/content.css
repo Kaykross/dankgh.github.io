@@ -5,7 +5,7 @@ body .body-overlay{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: inherit !important;
+    background-color: black !important;
     z-index: -5;
    
 }
@@ -45,24 +45,37 @@ body .body-overlay.active{
 .content header.big-header .toolbar-1 .toolbar-1-aside.toolbar-item{
     overflow: visible;
 }
+.content header.big-header .toolbar-1 .search.mobile,
 .content header.big-header .toolbar-1 .toolbar-item.search{
     position: relative;
     display: flex;
     gap: 0;
 }
+.content header.big-header .toolbar-1 .search{
+    position: relative;
+}
 .content header.big-header .toolbar-1 .search input{
     padding: 5px;
     outline: none;
-    border: 1px solid rgb(99, 97, 97);
+    border: 1px solid rgb(175, 175, 175);
     background-color: transparent;
-    width: 28vw;
+    width: 100%;
 }
 .content header.big-header .toolbar-1 .search .btn-search{
-    position: relative;
-    top: 6px;
-    right: 30px;
+    position: absolute;
+    top: 1px;
+    right: 0px;
     z-index: 20; 
-    padding: 4.5px;
+    padding: 4.5px 9.5px;
+}
+.content header.big-header .toolbar-1 .search.mobile{
+    display: flex;
+    /* width: 40vw; */
+    display: none;
+}
+.content header.big-header .toolbar-1 .search{
+    display: none;
+    display: flex;
 }
 
 .content header.big-header .toolbar-1 .floating-contact-button{
@@ -133,7 +146,8 @@ body .body-overlay.active{
     justify-content: center;
     height: 100%;
     margin: 15px 0 -10px 0;
-    margin-right: 20%;  
+    margin-right: 20%; 
+    overflow: visible; 
 }
 .content header.big-header .toolbar-2 .tootbar-2-menu-item{
     display: flex;
@@ -277,7 +291,7 @@ body .body-overlay.active{
 .content main.main .main-aside{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .content main.main .main-aside .notifications,
 .content main.main .main-aside .cbt-courses-adds ul{

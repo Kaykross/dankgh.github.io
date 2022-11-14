@@ -133,8 +133,7 @@ body.sunny-theme .content main.main .main-section section.features .features-lis
 body.sunny-theme .content main.main .main-section section.services .service-list .list-item button.read-more *,
 body.sunny-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more,
 body.sunny-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more *{
-    background-color: rgb(215, 176, 252);
-    color: blueviolet;
+    background-color: rgb(250, 186, 91);
     transform: scale(1.02);
     font-weight: 700;
     color: rgb(248, 139, 15); 
@@ -148,9 +147,9 @@ body.sunny-theme .content main.main .main-section section.features .features-lis
 body.sunny-theme .content main.main .main-section section.services .service-list .list-item button.read-more:hover *,
 body.sunny-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more:hover,
 body.sunny-theme .content main.main .main-section section.about-cbt .cbt-side-box .read-more:hover *{
-    background-color: rgb(250, 186, 91) ;
+    background-color: rgb(250, 186, 91);
     color: white;
-    transform: scale(1.02);
+    transform: scale(0.95);
     font-weight: 700;
     color: orangered;
 }
